@@ -1,0 +1,26 @@
+{
+  "name": "estoque-api",
+  "version": "1.0.0",
+  "description": "Projeto de api do estoque",
+  "homepage": "https://github.com/Bielzin1232/estoque-api#readme",
+  "bugs": {
+    "url": "https://github.com/Bielzin1232/estoque-api/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bielzin1232/estoque-api.git"
+  },
+  "license": "ISC",
+  "author": "bielzin1703l@gmail.com",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "dotenv": "^18.0.10",
+    "express": "^5.3.0"
+  }
+}
